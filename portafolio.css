@@ -1,0 +1,192 @@
+body{
+    margin:0px;
+    padding:0px;
+   background-color:#ffffff;
+}
+nav{
+   
+    font-family:'Signika Negative', sans-serif;
+    font-weight:Bold;
+    color:gray;
+     font-size:30px;
+     border: 1px solid;
+}
+a{
+   text-decoration:none;
+  color:Black;
+}
+nav ul li{
+  list-style:none;
+  display:inline;
+  padding-left:25px;
+}
+nav ul li:hover{
+  text-decoration:underline;
+}
+nav ul li .bee{
+  width:45px;
+  margin-right:85px;
+}
+
+header{
+    height:1000px;
+    width:1550px;
+   text-align:center;
+   font-family:'Signika Negative', sans-serif;
+   padding-top:150px;
+
+}
+header .Home h1{
+   font-weight: bold;
+  font-size:100px;
+}
+header .Home .panal{
+  width:100px;
+  margin-right:350px;
+}
+header .Home h3{
+  font-size:50px;
+}
+header .panalesdos img{
+  float:left;
+  opacity:0.3;
+  width:280px;
+  margin-top:-120px;
+  
+}
+header .panales img{
+  float:right;
+  opacity:0.3;
+  width:280px;
+}
+
+ @keyframes go-left-right {        /* dale un nombre: "go-left-right" */
+    from { left: 0px; }             /* animar desde la izquierda: 0px */
+    to { left: calc(10% - 50px); } /* animar a la izquierda: 100%-50px */
+  }
+
+  .beesito{
+    animation: go-left-right 1s infinite alternate;
+    position: relative;
+    margin-right:100px;
+  }
+
+main .AboutMe{
+    height:800px;
+    width:1550px;
+}
+main .AboutMe h1{
+  display:inline;
+  text-transform:uppercase;
+  font-family:'Signika Negative', sans-serif;
+ font-size:50px;
+  margin-left:60px;
+  
+}
+main .AboutMe .queenbee{
+  margin-left:180px;
+  margin-top:50px;
+  width:40px;
+ 
+}
+main .AboutMe p{
+   margin-left:850px;
+     text-align:justify;
+  font-family:'Signika Negative', sans-serif;
+  font-size:30px;
+  animation-duration: 3s;
+  animation-name: slidein;
+  animation-iteration-count: 1;
+  animation-direction: alternate;
+}
+@keyframes slidein {
+  from {
+    margin-left: 50%;
+    width: 200%
+  }
+
+  to {
+    margin-left: 57%;
+    width: 47%;
+  }
+}
+main .AboutMe .fotobee{
+  float:left;
+  height:500px;
+  border-radius:150px;
+  margin-left:300px;
+}
+main .AboutMe .fotobee:hover{
+-webkit-transform: rotateY(180deg);
+-webkit-transform-style: preserve-3d;
+transform: rotateY(180deg);
+transform-style: preserve-3d;
+}
+
+main .Proyects{
+  height:900px;
+  width:1550px;
+}
+main .Proyects .titleP img{
+  margin-left:150px;
+}
+main .Proyects .titleP{
+  border-bottom:1px solid grey;
+  
+}
+main .Proyects h1{
+  text-align:center;
+  font-size:50px;
+  font-family:'Signika Negative', sans-serif;
+  display:inline;
+  margin-left:20px;
+}
+main .Proyects #codepen, main .Proyects .titleP a{
+  display:inline;
+}
+main .Proyects #codepen{
+  font-size:50px;
+  font-family:'Signika Negative', sans-serif;
+  margin-left:700px;
+}
+
+main .Proyects .titleP a{
+margin-left:-150px;
+  margin-bottom:50px;
+}
+main .Proyects .slider-container{
+width:891px;
+  height:500px;
+  padding-bottom:300px;
+}
+
+
+footer {
+    height:400px;
+    width:1000px;
+  padding-top:200px;
+  color:white;
+  background-color:black;
+}
+footer .Contacts{
+  width:1000px;
+  font-family:'Signika Negative', sans-serif;
+  height:300px;
+  padding-top:100px;
+  margin-left:350px;
+  display:inline;
+}
+footer .Contacts h1{
+  display:inline;
+  font-size:45px;
+}
+footer .Contacts p{
+  text-align:justify;
+  font-size:25px;
+  margin-left:350px;
+}
+footer .honey{
+  display:flex;
+ margin-left:1300px;
+  margin-top:-150px;
+}
